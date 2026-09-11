@@ -34,6 +34,7 @@ include_directories(
         Drivers/CMSIS/dsp/Inc
         Drivers/CMSIS/cm4/Inc
         Drivers/CMSIS/dsp/Inc/dsp
+        Drivers/CMSIS/dsp/Inc/dsp/ComputeLibrary
         Drivers/CMSIS/cm4/Inc/dsp
         Drivers/CMSIS/cm4/Src
         System

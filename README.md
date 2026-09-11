@@ -1,7 +1,5 @@
 # nayo-firmware
 
----
-
 ## Description
 
 Simple firmware for the nayo board, a simple 4 key Sayo Device style macropad featuring the AT32F405 microcontroller.
@@ -22,7 +20,7 @@ Simple firmware for the nayo board, a simple 4 key Sayo Device style macropad fe
 - Code execution (TBI)
 - Graphical menu (TBI)
 
-## Hardware:
+## Hardware
 - WeAct AT32F405CCT6
 - MT9105ET
 - I2C SSD1306

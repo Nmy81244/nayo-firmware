@@ -22,7 +22,7 @@
  * SOFTWARE.
  */
 #include "arm_math.h"
-#include "NEMath.h"
+#include "../../Inc/ComputeLibrary/NEMath.h"
 
 #if defined(ARM_MATH_NEON)
 
