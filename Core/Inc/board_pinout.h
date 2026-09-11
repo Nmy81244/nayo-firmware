@@ -28,6 +28,10 @@
 #define ENCODER_SW_PORT     GPIOB
 #define ENCODER_SW_PIN      GPIO_PINS_2
 
+// General-purpose GPIO released from JTAG
+#define GPIO_PB3_PIN        GPIO_PINS_3
+#define GPIO_PB4_PIN        GPIO_PINS_4
+
 // Buttons
 #define BUTTON_LED_PORT      GPIOA
 #define BUTTON_LED_PIN       GPIO_PINS_8
@@ -48,6 +52,8 @@
 #define RGB_LED_PIN         GPIO_PINS_15
 
 // USB 2.0 HS
+#define USB_RREF_PORT       GPIOB
+#define USB_RREF_PIN        GPIO_PINS_13
 #define USB_DM_PORT         GPIOB
 #define USB_DM_PIN          GPIO_PINS_14
 #define USB_DP_PORT         GPIOB
