@@ -24,8 +24,13 @@ int main(void) {
     g_ws2812.init();
     g_ws2812.clear();
     g_ws2812.show();
+    g_oled.init();
+    g_oled.clear();
+    g_oled.draw_text(0, 0, "NAYO READY");
+    g_oled.update();
 
     while(1) {
         g_ws2812.update();
+        g_oled.update();
     }
 }

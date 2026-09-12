@@ -8,8 +8,8 @@ Simple firmware for the nayo board, a simple 4 key Sayo Device style macropad fe
 
 - 8kHz polling rate (TBI)
 - Support for up to four linear magnetic switches
-- Support for up to 10 addressable RGB LEDs (TBI)
-- Monochromatic I2C display support (TBI)
+- Support for up to 10 addressable RGB LEDs
+- Monochromatic I2C SSD1306 display support
 - Rotary encoder support (TBI)
 - Rapid-trigger support (TBI)
 - Macro customization support (TBI)
@@ -26,4 +26,3 @@ Simple firmware for the nayo board, a simple 4 key Sayo Device style macropad fe
 - I2C SSD1306
 - WS2812B
 - EC11 Encoder
-
